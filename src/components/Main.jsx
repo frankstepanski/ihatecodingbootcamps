@@ -28,7 +28,7 @@ function Main() {
   >
     <h3 className="vertical-timeline-element-title">Computer Science</h3>
     <p>
-   Algorithms, Data Structures, System Design, Programming Paradigm and Design Patterns
+   TBA
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -37,9 +37,9 @@ function Main() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
    
   >
-    <h3 className="vertical-timeline-element-title">Front End Development</h3>
+    <h3 className="vertical-timeline-element-title">Browser Based Technologies</h3>
     <p>
-     HTML, CSS, JavaScript, DOM API, and Fetch API
+    TBA
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -48,9 +48,9 @@ function Main() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     
   >
-    <h3 className="vertical-timeline-element-title">Front End Development Libraries and Tools</h3>
+    <h3 className="vertical-timeline-element-title">Deployment</h3>
     <p>
-      React, Webpack, Babel, Deployment, etc.
+      TBA
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -58,9 +58,9 @@ function Main() {
     date="April 2013"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
-    <h3 className="">Back End Development</h3>
+    <h3 className="">Databases</h3>
     <p>
-      Node and Express (REST API), Relational and Non-Relational Databases, Authentication
+     TBA
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -68,9 +68,9 @@ function Main() {
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     
   >
-    <h3 className="">DevOps</h3>
+    <h3 className="">Server-side Development</h3>
     <p>
-      stuff
+      TBA
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -79,10 +79,24 @@ function Main() {
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
    
   >
-    <h3 className="">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-    <h4 className="v">Bachelor Degree</h4>
+    <h3 className="">Quality and Performance</h3>
     <p>
-      Creative Direction, Visual Design
+      TBA
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+   
+  />
+   <VerticalTimelineElement
+    className=""
+ 
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+   
+  >
+    <h3 className="">Agile Management</h3>
+    <p>
+      TBA
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
