@@ -8,7 +8,7 @@ function Main() {
         <>
          <VerticalTimeline layout={'1-column-right'}>
           <VerticalTimelineElement
-               className=""
+                className="vertical-timeline-element-lead"
                contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#2196f3' }}
           >
@@ -23,43 +23,46 @@ function Main() {
             <p>TBA</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-             className="vertical-timeline-element--work"
+             className=""
              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
              <h3 className="vertical-timeline-element-title">Browser Based Technologies</h3>
              <p>TBA</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-             className="vertical-timeline-element--work"
+            className=""
              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
             <h3 className="vertical-timeline-element-title">Deployment</h3>
             <p>TBA</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-            className="vertical-timeline-element--topic"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+            className=""
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
             <h3 className="">Databases</h3>
             <p>TBA</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+            className=""
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
              <h3 className="">Server-side Development</h3>
              <p>TBA</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+            className=""
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
          >
              <h3 className="">Quality and Performance</h3>
              <p>TBA</p>
          </VerticalTimelineElement>
-        <VerticalTimelineElement
-               iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+         <VerticalTimelineElement
+            className=""
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
-               <h3 className="">Agile Management</h3>
-              <p>TBA</p>
+            <h3 className="">Agile Management</h3>
+            <p>TBA</p>
        </VerticalTimelineElement>
      </VerticalTimeline>
     </>
