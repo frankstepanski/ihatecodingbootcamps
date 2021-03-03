@@ -14,7 +14,7 @@ function Main() {
            
            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           >
-          <h3 className="">Self Stufy Bootcamp Guide</h3>
+          <h3 className="">Coding Bootcamp Topic Guide</h3>
         
           <p>
          

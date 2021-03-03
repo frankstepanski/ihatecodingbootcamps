@@ -64,7 +64,7 @@ function Main() {
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     className: ""
-  }, "Self Stufy Bootcamp Guide"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
+  }, "Coding Bootcamp Topic Guide"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
     className: "",
     iconStyle: {
       background: 'rgb(33, 150, 243)',
