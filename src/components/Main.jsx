@@ -14,6 +14,16 @@ function Main() {
                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#2196f3' }}
           >
           <h3 className="">Coding Bootcamp Topic Guide</h3>
+
+          <p>Pellentesque id arcu mi. Curabitur est turpis, tristique consectetur massa sit amet, imperdiet mattis lorem.
+             Nunc auctor in arcu sodales pellentesque. Suspendisse nibh sapien, euismod sed ipsum id,
+             tristique facilisis libero. Fusce nisi elit, viverra at sollicitudin et, eleifend vel purus.
+             Sed eros risus, pretium id ultrices eu, sollicitudin vel lectus.</p>
+          <p>Vivamus vel mi in quam luctus fermentum id faucibus ligula. Suspendisse potenti. 
+              Donec tempus quis ante at laoreet. Pellentesque blandit augue non interdum ultricies.
+              Praesent elementum lectus quis magna luctus lobortis a eu neque. Praesent condimentum feugiat
+              lacus at convallis. Morbi id porttitor magna. Quisque ullamcorper pulvinar nunc, sed auctor
+             nunc ultricies nec. Integer consequat lacus in neque venenatis condimentum.</p>
                
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -33,7 +43,16 @@ function Main() {
              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
              <h3 className="vertical-timeline-element-title">Browser Based Technologies</h3>
-             <p>TBA</p>
+            
+            <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>DOM and Fetch API</li>
+            <li>Local Storage, Session Storage, IndexedDB</li>
+            <li>React.js</li>
+            </ul>
+
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className=""
