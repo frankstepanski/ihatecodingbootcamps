@@ -7,14 +7,10 @@ body {
     color: black;
 }
 
-.vertical-timeline-element--even .vertical-timeline-element-content {
-    border-top: 3px solid #2196f3;
+.vertical-timeline-element--header .vertical-timeline-element-content {
+    border-top: 3px solid #1976d2;
 }
 
-.vertical-timeline-element--education .vertical-timeline-element-content {
-    border-top: 3px solid #e91e63;
-}
-
-.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-icon {
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--topic .vertical-timeline-element-icon {
     box-shadow: 0 0 0 4px #1976d2, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
   }
