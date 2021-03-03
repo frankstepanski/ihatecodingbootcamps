@@ -47,8 +47,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Main() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimeline, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
-    className: "vertical-timeline-element--work",
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimeline, {
+    layout: '1-column-right'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
+    className: "",
     contentStyle: {
       background: 'rgb(33, 150, 243)',
       color: '#fff'
@@ -56,94 +58,68 @@ function Main() {
     contentArrowStyle: {
       borderRight: '7px solid  rgb(33, 150, 243)'
     },
-    date: "2011 - present",
     iconStyle: {
       background: 'rgb(33, 150, 243)',
       color: '#fff'
-    },
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(WorkIcon, null)
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
+    className: ""
+  }, "Self Stufy Bootcamp Guide"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
+    className: "",
+    iconStyle: {
+      background: 'rgb(33, 150, 243)',
+      color: '#fff'
+    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     className: "vertical-timeline-element-title"
-  }, "Creative Director"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
-    className: "vertical-timeline-element-subtitle"
-  }, "Miami, FL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Creative Direction, User Experience, Visual Design, Project Management, Team Leading")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
+  }, "Computer Science"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Algorithms, Data Structures, System Design, Programming Paradigm and Design Patterns")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
     className: "vertical-timeline-element--work",
-    date: "2010 - 2011",
     iconStyle: {
       background: 'rgb(33, 150, 243)',
       color: '#fff'
-    },
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(WorkIcon, null)
+    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     className: "vertical-timeline-element-title"
-  }, "Art Director"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
-    className: "vertical-timeline-element-subtitle"
-  }, "San Francisco, CA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Creative Direction, User Experience, Visual Design, SEO, Online Marketing")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
+  }, "Front End Development"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "HTML, CSS, JavaScript, DOM API, and Fetch API")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
     className: "vertical-timeline-element--work",
-    date: "2008 - 2010",
     iconStyle: {
       background: 'rgb(33, 150, 243)',
       color: '#fff'
-    },
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(WorkIcon, null)
+    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     className: "vertical-timeline-element-title"
-  }, "Web Designer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
-    className: "vertical-timeline-element-subtitle"
-  }, "Los Angeles, CA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "User Experience, Visual Design")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
-    className: "vertical-timeline-element--work",
-    date: "2006 - 2008",
-    iconStyle: {
-      background: 'rgb(33, 150, 243)',
-      color: '#fff'
-    },
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(WorkIcon, null)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: "vertical-timeline-element-title"
-  }, "Web Designer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
-    className: "vertical-timeline-element-subtitle"
-  }, "San Francisco, CA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "User Experience, Visual Design")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
+  }, "Front End Development Libraries and Tools"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "React, Webpack, Babel, Deployment, etc.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
     className: "vertical-timeline-element--education",
     date: "April 2013",
     iconStyle: {
       background: 'rgb(233, 30, 99)',
       color: '#fff'
-    },
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(SchoolIcon, null)
+    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: "vertical-timeline-element-title"
-  }, "Content Marketing for Web, Mobile and Social Media"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
-    className: "vertical-timeline-element-subtitle"
-  }, "Online Course"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Strategy, Social Media")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
-    className: "vertical-timeline-element--education",
-    date: "November 2012",
+    className: ""
+  }, "Back End Development"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Node and Express (REST API), Relational and Non-Relational Databases, Authentication")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
+    className: "",
     iconStyle: {
       background: 'rgb(233, 30, 99)',
       color: '#fff'
-    },
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(SchoolIcon, null)
+    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: "vertical-timeline-element-title"
-  }, "Agile Development Scrum Master"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
-    className: "vertical-timeline-element-subtitle"
-  }, "Certification"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Creative Direction, User Experience, Visual Design")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
-    className: "vertical-timeline-element--education",
-    date: "2002 - 2006",
+    className: ""
+  }, "DevOps"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "stuff")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
+    className: "",
     iconStyle: {
       background: 'rgb(233, 30, 99)',
       color: '#fff'
-    },
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(SchoolIcon, null)
+    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: "vertical-timeline-element-title"
+    className: ""
   }, "Bachelor of Science in Interactive Digital Media Visual Imaging"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
-    className: "vertical-timeline-element-subtitle"
+    className: "v"
   }, "Bachelor Degree"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Creative Direction, Visual Design")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
     iconStyle: {
       background: 'rgb(16, 204, 82)',
       color: '#fff'
-    },
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(StarIcon, null)
+    }
   })));
 }
 

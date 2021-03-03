@@ -1,5 +1,5 @@
-## I Hate Coding Bootcamps
+## Before You Signup for a Coding Bootcamp...
 
-A roadmap to students of topics and patterns to be familiar with (and understand why) before considering a coding bootcamp.
+A roadmap of topics to be familiar with before considering starting a coding bootcamp.
 
 
