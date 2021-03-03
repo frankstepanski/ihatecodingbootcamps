@@ -4,7 +4,6 @@ import "./App.css";
 
 function App() {
  
-
   return (
     <>
       <Main />
@@ -12,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default Main;
