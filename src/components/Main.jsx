@@ -14,14 +14,19 @@ function Main() {
                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#2196f3' }}
           >
           <h3 className="">Coding Bootcamp Topic Guide</h3>
-          <p>TBA</p>
+               
         </VerticalTimelineElement>
         <VerticalTimelineElement
               className=""
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
             <h3 className="vertical-timeline-element-title">Computer Science</h3>
-            <p>TBA</p>
+            <ul>
+                  <li>Design Patterns</li>
+                  <li>Data Structures</li>
+                  <li>Algorithms</li>
+                  <li>Big O Notation</li>
+                </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement
              className=""
