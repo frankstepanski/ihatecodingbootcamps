@@ -10,6 +10,7 @@ function Main() {
           <VerticalTimelineElement
                 className="vertical-timeline-element-lead"
                contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+               contentArrowStyle={{ borderLeft: '7px solid  rgb(33, 150, 243)' }}
                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#2196f3' }}
           >
           <h3 className="">Coding Bootcamp Topic Guide</h3>

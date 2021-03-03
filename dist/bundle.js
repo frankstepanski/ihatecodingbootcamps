@@ -55,6 +55,9 @@ function Main() {
       background: 'rgb(33, 150, 243)',
       color: '#fff'
     },
+    contentArrowStyle: {
+      borderLeft: '7px solid  rgb(33, 150, 243)'
+    },
     iconStyle: {
       background: 'rgb(33, 150, 243)',
       color: '#2196f3'
