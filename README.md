@@ -15,11 +15,14 @@ A roadmap of topics to be familiar with before starting a coding bootcamp.
 - DOM API
 - Fetch API
 - Local Storage, Session Storage, IndexedDB
-- React.js
+- React
+- Typescript
+
 
 #### Deployment
 - Netlify
 - Heroku
+- AWS
 
 #### Databases
 - Postgres
@@ -32,7 +35,7 @@ A roadmap of topics to be familiar with before starting a coding bootcamp.
 - PERN Stack (Postgres, Express.js, React.js, Node.js)
 
 #### Quality and Performance
-- Unit Testing
+- Testing (Unit, Integration, End-to-End)
 - Webpack
 - Lazy Loading
 

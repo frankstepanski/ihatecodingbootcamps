@@ -177,7 +177,7 @@ function Main() {
          >
              <Title level={3}>Quality and Performance</Title>
              <Collapse accordion>
-              <Panel header="Testing (Unit Tests, Integration Test, and End to End Test)" key="1">
+              <Panel header="Testing (Unit, Integration, End-to-End)" key="1">
                 <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
                </Panel>
                 <Panel header="Webpack" key="2">
