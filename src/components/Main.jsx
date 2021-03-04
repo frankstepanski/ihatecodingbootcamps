@@ -3,7 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import { Collapse } from 'antd';
 const { Panel } = Collapse;
-import { Typography, Divider } from 'antd';
+import { List, Typography, Divider } from 'antd';
 
 const { Title, Paragraph, Text, Link } = Typography;
 
@@ -52,12 +52,33 @@ function Main() {
           <Collapse accordion>
               <Panel header="Design Patterns" key="1">
               <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+              <List size="large">
+                    <List.Item>item 1</List.Item>
+                    <List.Item>item 2</List.Item>
+                    <List.Item> 
+                        <Link href="https://www.espn.com" target="_blank">item 3</Link>
+                     </List.Item>
+              </List>
                </Panel>
                 <Panel header="Data Structures" key="2">
                 <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                <List size="large">
+                    <List.Item>item 1</List.Item>
+                    <List.Item>item 2</List.Item>
+                    <List.Item> 
+                        <Link href="https://www.espn.com" target="_blank">item 3</Link>
+                     </List.Item>
+                 </List>
                  </Panel>
                  <Panel header="Algorithms" key="3">
                  <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 <List size="large">
+                    <List.Item>item 1</List.Item>
+                    <List.Item>item 2</List.Item>
+                    <List.Item> 
+                        <Link href="https://www.espn.com" target="_blank">item 3</Link>
+                     </List.Item>
+              </List>
                  </Panel>
                  <Panel header="Big O Notation" key="4">
                  <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
@@ -90,7 +111,10 @@ function Main() {
                  <Panel header="Local Storage, Session Storage, IndexedDB" key="6">
                  <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
                  </Panel>
-                 <Panel header="React" key="37">
+                 <Panel header="React" key="7">
+                 <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
+                 <Panel header="Typescript" key="8">
                  <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
                  </Panel>
                </Collapse>
@@ -105,6 +129,9 @@ function Main() {
                 <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
                </Panel>
                 <Panel header="Heroku" key="2">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
+                 <Panel header="AWS" key="3">
                 <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
                  </Panel>
                </Collapse>
