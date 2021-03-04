@@ -70,7 +70,7 @@ function Main() {
              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
                <Title level={3}>Browser Based Technologies</Title>
-              <p></p>
+             
               <Collapse accordion>
               <Panel header="HTML" key="1">
               <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
@@ -99,37 +99,87 @@ function Main() {
             className=""
              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
-            <h3 className="vertical-timeline-element-title">Deployment</h3>
-            <p></p>
+            <Title level={3}>Deployment</Title>
+            <Collapse accordion>
+              <Panel header="Netlify" key="1">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+               </Panel>
+                <Panel header="Heroku" key="2">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
+               </Collapse>
            
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className=""
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
-            <h3 className="">Databases</h3>
-            <p>TBA</p>
+            <Title level={3}>Databases</Title>
+            <Collapse accordion>
+              <Panel header="Postgres" key="1">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+               </Panel>
+                <Panel header="MongoDB" key="2">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
+               </Collapse>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className=""
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
-             <h3 className="">Server-side Development</h3>
-             <p>TBA</p>
+             <Title level={3}>Server-side Development</Title>
+             <Collapse accordion>
+              <Panel header="Express" key="1">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+               </Panel>
+                <Panel header="User Authentication" key="2">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
+                 <Panel header="Sequelize and Knex" key="3">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
+                 <Panel header="PERN Stack (Postgres, Express, React and Node)" key="4">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
+               </Collapse>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className=""
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
          >
-             <h3 className="">Quality and Performance</h3>
-             <p>TBA</p>
+             <Title level={3}>Quality and Performance</Title>
+             <Collapse accordion>
+              <Panel header="Testing (Unit Tests, Integration Test, and End to End Test)" key="1">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+               </Panel>
+                <Panel header="Webpack" key="2">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
+                 <Panel header="Lazy Loading" key="3">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
+               </Collapse>
          </VerticalTimelineElement>
          <VerticalTimelineElement
             className=""
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
-            <h3 className="">Agile Management</h3>
-            <p>TBA</p>
+            <Title level={3}>Agile Management</Title>
+            <Collapse accordion>
+              <Panel header="Kanban, Project Management" key="1">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+               </Panel>
+                <Panel header="Issues" key="2">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
+                 <Panel header="User Stories" key="3">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
+                 <Panel header="Sprints" key="4">
+                <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
+               </Collapse>
        </VerticalTimelineElement>
      </VerticalTimeline>
     </>

@@ -9123,7 +9123,7 @@ function Main() {
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Title, {
     level: 3
-  }, "Browser Based Technologies"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }, "Browser Based Technologies"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_3__.default, {
     accordion: true
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
     header: "HTML",
@@ -9152,41 +9152,96 @@ function Main() {
       background: 'rgb(33, 150, 243)',
       color: '#fff'
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: "vertical-timeline-element-title"
-  }, "Deployment"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Title, {
+    level: 3
+  }, "Deployment"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_3__.default, {
+    accordion: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "Netlify",
+    key: "1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "Heroku",
+    key: "2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
     className: "",
     iconStyle: {
       background: 'rgb(33, 150, 243)',
       color: '#fff'
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: ""
-  }, "Databases"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "TBA")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Title, {
+    level: 3
+  }, "Databases"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_3__.default, {
+    accordion: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "Postgres",
+    key: "1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "MongoDB",
+    key: "2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
     className: "",
     iconStyle: {
       background: 'rgb(33, 150, 243)',
       color: '#fff'
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: ""
-  }, "Server-side Development"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "TBA")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Title, {
+    level: 3
+  }, "Server-side Development"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_3__.default, {
+    accordion: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "Express",
+    key: "1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "User Authentication",
+    key: "2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "Sequelize and Knex",
+    key: "3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "PERN Stack (Postgres, Express, React and Node)",
+    key: "4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
     className: "",
     iconStyle: {
       background: 'rgb(33, 150, 243)',
       color: '#fff'
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: ""
-  }, "Quality and Performance"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "TBA")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Title, {
+    level: 3
+  }, "Quality and Performance"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_3__.default, {
+    accordion: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "Testing (Unit Tests, Integration Test, and End to End Test)",
+    key: "1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "Webpack",
+    key: "2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "Lazy Loading",
+    key: "3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__.VerticalTimelineElement, {
     className: "",
     iconStyle: {
       background: 'rgb(33, 150, 243)',
       color: '#fff'
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: ""
-  }, "Agile Management"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "TBA"))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Title, {
+    level: 3
+  }, "Agile Management"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_3__.default, {
+    accordion: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "Kanban, Project Management",
+    key: "1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "Issues",
+    key: "2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "User Stories",
+    key: "3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Panel, {
+    header: "Sprints",
+    key: "4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Paragraph, null, "Vivamus vel mi in quam luctus fermentum id faucibus ligula."))))));
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Main);
