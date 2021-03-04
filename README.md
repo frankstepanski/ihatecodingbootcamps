@@ -7,6 +7,7 @@ A roadmap of topics to be familiar with before starting a coding bootcamp.
 - Data Structures
 - Algorithms
 - Big O Notation
+- System Design
 
 #### Browser Based Technologies
 - HTML

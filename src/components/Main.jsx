@@ -83,6 +83,9 @@ function Main() {
                  <Panel header="Big O Notation" key="4">
                  <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
                  </Panel>
+                 <Panel header="System Design" key="5">
+                 <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
+                 </Panel>
                </Collapse>
      
         </VerticalTimelineElement>
