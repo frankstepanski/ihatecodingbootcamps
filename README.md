@@ -1,6 +1,6 @@
 ## Coding Bootcamp Topic Guide
 
-A roadmap of topics to be familiar with before starting a coding bootcamp.
+An interactive roadmap of topics that should be covered in any coding bootcamp.
 
 #### Computer Science applied to JavaScript
 - Design Patterns
@@ -18,7 +18,6 @@ A roadmap of topics to be familiar with before starting a coding bootcamp.
 - Local Storage, Session Storage, IndexedDB
 - React
 - Typescript
-
 
 #### Deployment
 - Netlify
