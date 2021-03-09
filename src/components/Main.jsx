@@ -2,12 +2,14 @@ import React from "react";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { Collapse } from 'antd';
-const { Panel } = Collapse;
 import { List, Typography, Divider } from 'antd';
-
-const { Title, Paragraph, Text, Link } = Typography;
+import ReactPlayer from 'react-player'
 
 import 'antd/dist/antd.css'
+
+const { Panel } = Collapse;
+const { Title, Paragraph, Text, Link } = Typography;
+
 
 function Main() {
     const text = `
@@ -63,7 +65,9 @@ function Main() {
                 <Panel header="Data Structures" key="2">
                 <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
                 <List size="large">
-                    <List.Item>item 1</List.Item>
+                    <List.Item>
+                        <ReactPlayer controls={true} height ="480px" width="854px" url='https://www.youtube.com/watch?v=41GSinwoMYA' />
+                    </List.Item>
                     <List.Item>item 2</List.Item>
                     <List.Item> 
                         <Link href="https://www.espn.com" target="_blank">item 3</Link>
