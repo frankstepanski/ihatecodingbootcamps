@@ -1,8 +1,15 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { Collapse } from 'antd';
-import { List, Typography, Divider } from 'antd';
+
+// import individual components, instead of entire library:
+// i.e.: import { Collapse } from 'antd';
+// https://nsisodiya.medium.com/reduce-size-in-ant-design-bundle-size-c35dad9ce3a8
+import Collapse from 'antd/es/collapse';
+import List from 'antd/es/list';
+import Typography from 'antd/es/typography';
+import Divider from 'antd/es/divider';
+
 import ReactPlayer from 'react-player'
 
 import 'antd/dist/antd.css'
@@ -26,10 +33,9 @@ function Main() {
 
           <Title level={2}>Coding Bootcamp Topic Guide</Title>
 
-          <Paragraph>Pellentesque id arcu mi. Curabitur est turpis, tristique consectetur massa sit amet, imperdiet mattis lorem.
-             Nunc auctor in arcu sodales pellentesque. Suspendisse nibh sapien, euismod sed ipsum id,
-             tristique facilisis libero. Fusce nisi elit, viverra at sollicitudin et, eleifend vel purus.
-             Sed eros risus, pretium id ultrices eu, sollicitudin vel lectus.</Paragraph>
+          <Paragraph>If you took an Immersive Bootcamp or considering  a coding bootcamp, are comfortable with the concepts you
+learned, and are ready to continue your learning journey, this course is the perfect
+next step.</Paragraph>
           <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula. Suspendisse potenti. 
               Donec tempus quis ante at laoreet. Pellentesque blandit augue non interdum ultricies.
               Praesent elementum lectus quis magna luctus lobortis a eu neque. Praesent condimentum feugiat
@@ -55,10 +61,25 @@ function Main() {
               <Panel header="Design Patterns" key="1">
               <Paragraph>Vivamus vel mi in quam luctus fermentum id faucibus ligula.</Paragraph>
               <List size="large">
-                    <List.Item>item 1</List.Item>
-                    <List.Item>item 2</List.Item>
+                    <List.Item>
+                    <ReactPlayer controls={true} height ="480px" width="854px" url='https://www.youtube.com/watch?v=M7Xi1yO_s8E' />
+                    </List.Item>
+                    <List.Item>
+                        <ReactPlayer controls={true} height ="480px" width="854px" url='https://www.youtube.com/watch?v=sJ-c3BA-Ypo' />
+                    </List.Item>
                     <List.Item> 
-                        <Link href="https://www.espn.com" target="_blank">item 3</Link>
+                        <ReactPlayer controls={true} height ="480px" width="854px" url='https://www.youtube.com/watch?v=fHPa5xzbpaA' />
+                     </List.Item>
+                     <List.Item> 
+                        <ReactPlayer controls={true} height ="480px" width="854px" url='https://www.youtube.com/watch?v=GQzfF5EMD7o' />
+                     </List.Item>
+                     <List.Item> 
+                       SOLID:
+                        <ReactPlayer controls={true} height ="480px" width="854px" url='https://www.youtube.com/watch?v=UQqY3_6Epbg' />
+                        <ReactPlayer controls={true} height ="480px" width="854px" url='https://www.youtube.com/watch?v=-ptMtJAdj40' />
+                        <ReactPlayer controls={true} height ="480px" width="854px" url='https://www.youtube.com/watch?v=dJQMqNOC4Pc' />
+                        <ReactPlayer controls={true} height ="480px" width="854px" url='https://www.youtube.com/watch?v=JVWZR23B_iE' />
+                        <ReactPlayer controls={true} height ="480px" width="854px" url='ttps://www.youtube.com/watch?v=9oHY5TllWaU' />
                      </List.Item>
               </List>
                </Panel>
