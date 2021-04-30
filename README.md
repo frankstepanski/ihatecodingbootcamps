@@ -15,8 +15,9 @@ An interactive roadmap of topics that should be covered in any coding bootcamp.
 - JavaScript
 - DOM API
 - Fetch API
-- Local Storage, Session Storage, IndexedDB
+- Storage APIs (local, session, web and IndexedDB)
 - React
+- Redux
 - Typescript
 
 #### Deployment
@@ -31,8 +32,8 @@ An interactive roadmap of topics that should be covered in any coding bootcamp.
 #### Server-Side Development
 - Express
 - User Authentication
-- Sequelize
-- PERN Stack (Postgres, Express.js, React.js, Node.js)
+- Sequelize and Knex
+- Full Stack (Postgres, Express.js, React.js, Node.js)
 
 #### Quality and Performance
 - Testing (Unit, Integration, End-to-End)
