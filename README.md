@@ -35,13 +35,12 @@ An interactive roadmap of topics that should be covered in any coding bootcamp.
 - Sequelize and Knex
 - Full Stack (Postgres, Express.js, React.js, Node.js)
 
+#### Java Stack Development
+- Fundamentals (variables, types, casting, constrol structures, exceptions)
+- OOP (objects, classes, overloading, inheritance, interfaces, packages)
+- Spring MVC (RESTful APIs)
+
 #### Quality and Performance
 - Testing (Unit, Integration, End-to-End)
 - Webpack
 - Lazy Loading
-
-#### Agile Development
-- Kanban, Project Management
-- Issues
-- User Stories
-- Sprints
